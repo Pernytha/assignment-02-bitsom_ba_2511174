@@ -1,0 +1,61 @@
+[
+    {
+        "_id": {
+            "$oid": "69bcfbf670b310a9ef91162c"
+        },
+        "product_id": "ELEC1001",
+        "name": "Smartphone",
+        "category": "Electronics",
+        "brand": "Samsung",
+        "price": 30000,
+        "specifications": {
+            "ram": "8GB",
+            "storage": "128GB",
+            "battery": "5000mAh"
+        },
+        "features": [
+            "5G",
+            "Dual SIM"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "69bcfbf670b310a9ef91162d"
+        },
+        "product_id": "CLOT2001",
+        "name": "Men's Hoodie",
+        "category": "Clothing",
+        "brand": "Nike",
+        "price": 2500,
+        "sizes_available": [
+            "S",
+            "M",
+            "L"
+        ],
+        "material": "Cotton",
+        "colors": [
+            "Black",
+            "Blue"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "69bcfbf670b310a9ef91162e"
+        },
+        "product_id": "GROC3001",
+        "name": "Milk",
+        "category": "Groceries",
+        "brand": "Amul",
+        "price": 60,
+        "expiry_date": {
+            "$date": "2024-12-20T00:00:00Z"
+        },
+        "nutritional_info": {
+            "protein": "8g",
+            "fat": "5g"
+        },
+        "ingredients": [
+            "Milk"
+        ]
+    }
+]
